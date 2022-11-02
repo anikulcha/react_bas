@@ -40,8 +40,7 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/anikulcha/react_bas/issues"
-  },
-  "homepage": "https://github.com/anikulcha/react_bas#readme"
+  "devDependencies": {
+    "web-vitals": "^3.0.4"
+  }
 }
