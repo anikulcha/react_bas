@@ -3,7 +3,6 @@ import './App.css';
 import Profile from './components/Profile';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
-import TestComponent from './components/Test';
 
 
 // <App />
@@ -14,15 +13,9 @@ const App = () => {
         <Header />
         <Navigation />
         <Profile />
-        <TestComponent />
       </div>
   );
 }
-
-
-
-
-
 
 
 export default App;
