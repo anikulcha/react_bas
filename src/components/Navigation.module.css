@@ -1,0 +1,29 @@
+.nav{
+  grid-area: nav;
+  background-color: #fc1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+
+
+.item{
+  margin: 2px 0;
+  color: #123;
+}
+
+
+
+.item a{
+   
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.item.active a{
+  color: #c2e;
+}
