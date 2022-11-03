@@ -6,8 +6,11 @@
   grid-template-columns: 2fr 10fr;
   grid-template-areas: 
   'header header'
-  'nav content'
-  'nav posts';
+  'nav content';
   grid-gap: 10px;
 }
 
+.app-wrapper-content{
+  grid-area: content;
+  background-color: #cfe;
+}

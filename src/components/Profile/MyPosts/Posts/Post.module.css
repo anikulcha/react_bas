@@ -13,13 +13,33 @@
   object-fit: cover;
 }
 
-.post .cont{
+.post .block{
   margin-left: 15px;
+  width: 850px;
+  color: black
+}
+
+.post .name{
+  font-weight: 600;
+}
+
+.post .cont{
+  padding: 7px;
   color: #000;
-  border: 1px solid #fce
+  border: 1px solid #fce;
+  
+  border-radius: 5px;
 }
 
 .post .likes{
-  background-color: rgba(52, 228, 17, 0.589);
-  width: 25px;
+  background-color: rgba(52, 228, 17, 0.342);
+  width: 40px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer
+}
+
+.post .likes:hover{
+  background-color: rgba(52, 228, 17, 0.76);
 }
