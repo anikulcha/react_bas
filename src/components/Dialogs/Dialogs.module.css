@@ -1,0 +1,14 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr auto;
+}
+.dialogsItems .dialog{
+    padding: 10px
+}
+
+.dialogsItems .active{
+    font-size: 21px;
+}
+
+.messages{}
+.message{}

@@ -1,6 +1,6 @@
 .nav{
   grid-area: nav;
-  background-color: rgba(77, 66, 22, 0.849);
+  background-color: rgba(218, 209, 175, 0.212);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -19,11 +19,11 @@
 
 .item a{
    
-  color: #fff;
+  color: rgb(34, 18, 18);
   text-decoration: none;
   font-size: 18px;
 }
 
-.item.active a{
-  color: #c2e;
+.item a.active{
+  color: rgb(148, 12, 160);
 }
