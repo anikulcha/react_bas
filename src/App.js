@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import Profile from './components/Profile';
-import Header from './components/Header';
-import Navigation from './components/Navigation';
+import Profile from './components/Profile/Profile';
+import Header from './components/Header/Header';
+import Navigation from './components/Navigation/Navigation';
+import MyPosts from './components/Profile/MyPosts/MyPosts';
 
 
 // <App />
@@ -13,6 +14,7 @@ const App = () => {
         <Header />
         <Navigation />
         <Profile />
+        <MyPosts />
       </div>
   );
 }

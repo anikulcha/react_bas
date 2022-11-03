@@ -1,0 +1,25 @@
+
+.post{
+  color: #fc1;
+  display: flex;
+  flex-direction: row;
+  margin: 14px 0;
+}
+
+.post img{
+  width: 50px;
+  height: 50px;
+  border-radius: 1em;
+  object-fit: cover;
+}
+
+.post .cont{
+  margin-left: 15px;
+  color: #000;
+  border: 1px solid #fce
+}
+
+.post .likes{
+  background-color: rgba(52, 228, 17, 0.589);
+  width: 25px;
+}

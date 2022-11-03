@@ -1,0 +1,14 @@
+
+.MyPosts{
+  grid-area: posts;
+  background-color: #111;
+}
+
+.post{
+  color: #fc1
+}
+
+.post img{
+  width: 50px;
+  border-radius: 1em
+}
