@@ -2,24 +2,51 @@ import style from './MyPosts.module.css'
 import Post from './Posts/Post'
 
 const MyPosts = (props) => {
+    let profileImage = 'https://assets.reedpopcdn.com/-1631268637806.jpg/BROK/resize/1200x1200%3E/format/jpg/quality/70/-1631268637806.jpg';
+    let postsData = [
+      {
+        message: 'Имя Тиу исследователи соотносят с реконструированным именем общеиндоевропейского верховного бога, владыки небес (*Dyeus, ср. Зевс, Дьяус, Дэва, лат. Deus «бог»). Предполагается, что Тиу был вытеснен из этой ипостаси Одином.', 
+        id: 1, 
+        likeCount: 12
+      },
+      {
+        message: 'Тюр лишился руки, когда асы решили сковать огромного волка Фенрира волшебной цепью Глейпнир.', 
+        id: 2, 
+        likeCount: 8
+      },
+      {
+        message: 'Именем этого бога в германских языках было заменено имя римского бога Марса в названии вторника (лат. Martis dies) — норв. Tirsdag, англ. Tuesday.', 
+        id: 3, 
+        likeCount: 5
+      }
+    ]
+
+    let postsItem = postsData.map(p => <Post message={p.message} userAva= {profileImage} likes={p.likeCount} id={p.id} />)
 
     return(
         <div className='MyPosts'>
-          My posts
-          <div>
-            new posts
-          </div>
-          <div>
-            <textarea></textarea>
-            <button>add post</button>
-          </div>
           <div className={style.posts}>
-            <Post name='andre' message="hi my name Andrey" userAva='https://n1s2.hsmedia.ru/6a/46/ae/6a46aeed947a183d67d1bc48211151bf/480x496_0xac120003_4430520541578509619.jpg' likes='12' />
-            <Post name='android' message="it's my first post" userAva="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRb0lOhuAbflByagOfYUg5R8F1zGO1aN4woA&usqp=CAU" likes='2' />
-            <Post name="Optimus" message='ddd' userAva="https://www.1zoom.ru/big2/946/289597-frederika.jpg" likes='32' />
-            <Post name="Altair" message='lorem ipsum dolor' userAva="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaSl1GeKsq165H0CnVLkyCou1I3m9Chm1cTg&usqp=CAU" likes='25' />
+            <div>
+              <h3>Addition new post</h3>
+              <div>
+                <textarea></textarea>
+              </div>
+              
+              <button>add post</button>
+            </div>
+            <h3>My posts</h3>
+              {/* <Post  
+                message={postsData[0].message} 
+                userAva= {profileImage}
+                likes={postsData[0].likeCount} 
+              />
+              <Post 
+                message={postsData[1].message} 
+                userAva= {profileImage}
+                likes={postsData[1].likeCount} 
+              /> */}
+              { postsItem }
           </div>
-
         </div>
     )
 }

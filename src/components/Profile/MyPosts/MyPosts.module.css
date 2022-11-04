@@ -1,10 +1,12 @@
 
 .MyPosts{
+  
   grid-area: posts;
   background-color: #111;
 }
 
-.post{
+.posts{
+  padding: 10px 0 0 10px;
   color: #fc1
 }
 
