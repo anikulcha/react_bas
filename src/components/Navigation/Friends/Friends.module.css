@@ -1,0 +1,23 @@
+.friendBlock{
+    /* margin: 0 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* .friendBlock:first-child{
+    margin-left: 0;
+} */
+.friendBlock img{
+    width: 40px;
+    height: 40px;
+    border-radius: 1em;
+    object-fit: cover;
+}
+
+.friendBlock a{
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}

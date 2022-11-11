@@ -1,18 +1,19 @@
 import style from './ProfileInfo.module.css'
 
-const ProfileInfo = () => {
+const ProfileInfo = (props) => {
     return (
         <div>
-            <div>
+            <div className={style.background}>
                 <img 
-                    src="https://img.freepik.com/free-photo/aerial-drone-panorama-view-of-chisinau-moldova-at-sunrise_1268-17504.jpg?w=1000" 
+                    src={props.profileBackgroundPhoto} 
                     alt='alt' 
                 />
             </div>
             <div className={style.descrBlock}>
-                ava + descr
+                <div>
+                    <img src={props.profileImage} alt="profile photo" />
+                </div>
             </div>
-            
         </div>
         
     )

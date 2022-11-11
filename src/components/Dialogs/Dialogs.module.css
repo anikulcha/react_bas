@@ -38,11 +38,35 @@
 
 
 
-.messages{}
 .dialogs .message{
     border: 1px solid rgba(9, 196, 24, 0.849);
     border-radius: 1em;
     border-bottom-right-radius: 0;
     margin: 24px;
     padding: 12px;
+}
+
+.formMessage{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-self: auto;
+    padding: 16px;
+}
+
+.formMessage textarea{
+    width: 560px;
+    height: 50px;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    padding: 12px;
+    background-color: #caf3e3;
+}
+
+.formMessage button{
+    border-left: none;
+    outline: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #9dedce;
+    cursor: pointer;
 }

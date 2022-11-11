@@ -10,6 +10,11 @@
   color: #fc1
 }
 
+.posts textarea{
+  width: 970px;
+  height: 50px
+}
+
 .post img{
   width: 50px;
   border-radius: 1em

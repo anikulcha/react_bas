@@ -27,3 +27,10 @@
 .item a.active{
   color: rgb(148, 12, 160);
 }
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  grid-template-rows: repeat(2, 65px);
+  gap: 10px;
+}

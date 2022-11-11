@@ -69,4 +69,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-'https://n1s2.hsmedia.ru/6a/46/ae/6a46aeed947a183d67d1bc48211151bf/480x496_0xac120003_4430520541578509619.jpg'
+<!-- 'https://n1s2.hsmedia.ru/6a/46/ae/6a46aeed947a183d67d1bc48211151bf/480x496_0xac120003_4430520541578509619.jpg' аварка женщины из Аватара -->
+<!-- 'https://assets.reedpopcdn.com/-1631268637806.jpg/BROK/resize/1200x1200%3E/format/jpg/quality/70/-1631268637806.jpg' картинка тора -->
+<!-- https://img.freepik.com/free-photo/aerial-drone-panorama-view-of-chisinau-moldova-at-sunrise_1268-17504.jpg?w=1000 панорама города -->
