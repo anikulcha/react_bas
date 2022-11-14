@@ -5,7 +5,6 @@ import Message from './Message/Message'
 import { sendMessageCreation, updateNewMessageBodyCreation } from '../../state/dialogReducer'
 
 const Dialogs = (props) => {
-
     const state = props.store.getState().dialogPage
 
     let dialogsElements = 

@@ -83,7 +83,6 @@ let store = {
                 profilePhoto: 'http://fc03.deviantart.net/fs21/f/2007/271/7/f/Gran_Zeus_by_el_grimlock.jpg'
             }
         ],
-        sidebar: {}
     },
     _callSubscriber () {
         console.log('state changed')

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import store from './state/state';
+import store from './state/redux';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,12 +17,22 @@ const _callSubscriber = (state) => {
 }
 
 
+// console.log(state)
+
 _callSubscriber(store.getState())
 
-store.subscribe(_callSubscriber)
+store.subscribe(() =>{
+  
+  let state = store.getState()
+  _callSubscriber(state)
+  // console.log(state.profilePage.newPostText)
+  if(state.profilePage.newPostText === 'сука' || state.profilePage.newPostText === 'пидор') {
+    console.clear()
+    console.log('остановись')
+    state.profilePage.newPostText = ''
+  }
+} )
 
-// export default dialogsData;
-// export default messagesData;
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

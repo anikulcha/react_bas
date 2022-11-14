@@ -12,12 +12,12 @@ import {  BrowserRouter as Router,  Routes,  Route} from "react-router-dom";
 // <App />
 
 const App = (props) => {
-
+  // console.log(props.state.userInfo)
   return (
     <Router>
       <div className="App app-wrapper">
         <Header />
-        <Navigation userInfo={props.state.userID} id={props.state.userID}/>
+        <Navigation userInfo={props.state.userInfo} id={props.state.userID}/>
         <div className="app-wrapper-content">
           
           <Routes>
@@ -37,12 +37,13 @@ const App = (props) => {
             <Route path='/music' element={<Music />} />
             <Route path='/settings' element={<Settings />} />
           </Routes>
-          
         </div>
       </div>
      </Router>
   );
 }
+
+
 
 
 export default App;

@@ -4,14 +4,13 @@ import { NavLink } from 'react-router-dom'
 import Friends from './Friends/Friends'
 
 const Navigation = (props) => {
-
     let friendsItem = 
         props.userInfo.map(
             uid => 
                 <Friends userName={uid.name} 
                          userPhoto={uid.profilePhoto}
                          id={uid.ID}/>)
-
+    
     return (
         <nav className={style.nav}>
             <div className={style.item}>
